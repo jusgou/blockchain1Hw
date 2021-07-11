@@ -1,0 +1,37 @@
+=============== Jul 11, 2021 (PDT) ===============
+15:57:23.039555 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:57:23.044577 db@open opening
+15:57:23.045577 version@stat F·[] S·0B[] Sc·[]
+15:57:23.048483 db@janitor F·2 G·0
+15:57:23.048483 db@open done T·3.9056ms
+15:59:51.218531 db@close closing
+15:59:51.218531 db@close done T·0s
+=============== Jul 11, 2021 (PDT) ===============
+16:01:21.869063 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:01:21.869063 version@stat F·[] S·0B[] Sc·[]
+16:01:21.869063 db@open opening
+16:01:21.869063 journal@recovery F·1
+16:01:21.870069 journal@recovery recovering @1
+16:01:21.873069 memdb@flush created L0@2 N·378 S·11KiB "loc..seq,v14":"version,v1"
+16:01:21.874740 version@stat F·[1] S·11KiB[11KiB] Sc·[0.25]
+16:01:21.881853 db@janitor F·3 G·0
+16:01:21.881853 db@open done T·12.7897ms
+16:41:23.642629 db@close closing
+16:41:23.642629 db@close done T·0s
+=============== Jul 11, 2021 (PDT) ===============
+16:41:47.782768 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:41:47.783327 version@stat F·[1] S·11KiB[11KiB] Sc·[0.25]
+16:41:47.783327 db@open opening
+16:41:47.783327 journal@recovery F·1
+16:41:47.784425 journal@recovery recovering @3
+16:41:47.787607 memdb@flush created L0@5 N·848 S·15KiB "loc..seq,v385":"n:\xfd..ong,v387"
+16:41:47.788615 version@stat F·[2] S·26KiB[26KiB] Sc·[0.50]
+16:41:47.796609 db@janitor F·4 G·0
+16:41:47.796609 db@open done T·13.2823ms
+16:41:47.805615 table@compaction L0·2 -> L1·0 S·26KiB Q·1228
+16:41:47.807615 table@build created L1@8 N·516 S·19KiB "loc..seq,v385":"version,v1"
+16:41:47.807615 version@stat F·[0 1] S·19KiB[0B 19KiB] Sc·[0.00 0.00]
+16:41:47.809609 table@compaction committed F-1 S-7KiB Ke·0 D·710 T·3.9943ms
+16:41:47.810609 table@remove removed @2
+16:54:28.364104 db@close closing
+16:54:28.365078 db@close done T·0s
